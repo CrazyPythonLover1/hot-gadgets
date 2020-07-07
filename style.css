@@ -9,6 +9,12 @@
     background-repeat: no-repeat;  
     
 }
+.bg-img2{
+    background-image: url('images/bg-2.png');
+    background-size: 10%;
+    background-position: bottom left;
+    background-repeat: no-repeat; 
+}
 img{
     width:100%;
 }
