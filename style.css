@@ -1,3 +1,14 @@
+ .orange-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.bg-img{
+    background-image: url('images/bg-1.png');
+    background-size: 5%;
+    background-position: center;
+    background-repeat: no-repeat;  
+    
+}
 img{
     width:100%;
 }
@@ -11,8 +22,22 @@ h3{
 .navbar{
     padding: 0 40px;
 }
+
 .container{
     margin-bottom: 20px;
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 8px;
+    border: 1px solid #fceae8;
+    border-radius: 5px; 
+    background-image: linear-gradient(90deg,#ffd900, orange);   
+}
+
+.carousel-indicators li.active{
+    width: 30px;
+    height: 8px;
+    background-color: orangered;
 }
 .carousel{
     padding: 20px 40px;
